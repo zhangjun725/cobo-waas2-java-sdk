@@ -1,4 +1,4 @@
-package com.cobo.waas2.client;
+package com.cobo.waas2;
 
 import net.i2p.crypto.eddsa.*;
 import net.i2p.crypto.eddsa.KeyPairGenerator;

@@ -1,7 +1,7 @@
-package com.cobo.waas2.client;
+package com.cobo.waas2;
 
 public class Env {
-    public static Integer PROD = 0;
-    public static Integer DEV = 1;
+    public static Integer DEV = 0;
+    public static Integer PROD = 1;
 
 }
