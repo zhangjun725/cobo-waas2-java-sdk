@@ -10,8 +10,8 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 
-import static com.cobo.waas2.client.CryptoUtils.getPublicKey;
-import static com.cobo.waas2.client.CryptoUtils.sign;
+import static com.cobo.waas2.CryptoUtils.getPublicKey;
+import static com.cobo.waas2.CryptoUtils.sign;
 
 /**
  * A request interceptor that injects the API Key Header into requests, and signs messages, whenever required.

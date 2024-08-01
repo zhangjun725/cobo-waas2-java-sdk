@@ -1,4 +1,4 @@
-package com.cobo.waas2.client;
+package com.cobo.waas2;
 
 import java.math.BigDecimal;
 
