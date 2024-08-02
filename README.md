@@ -51,7 +51,7 @@ Add this dependency to your project's POM:
 <dependency>
   <groupId>com.cobo</groupId>
   <artifactId>cobo-waas2</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <scope>compile</scope>
 </dependency>
 ```
@@ -67,7 +67,7 @@ Add this dependency to your project's build file:
   }
 
   dependencies {
-     implementation "com.cobo:cobo-waas2:1.0.0"
+     implementation "com.cobo:cobo-waas2:1.0.1"
   }
 ```
 
@@ -81,7 +81,7 @@ mvn clean package
 
 Then manually install the following JARs:
 
-* `target/cobo-waas2-1.0.0.jar`
+* `target/cobo-waas2-1.0.1.jar`
 * `target/lib/*.jar`
 
 ## Getting Started
