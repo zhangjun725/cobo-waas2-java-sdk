@@ -287,7 +287,7 @@ public class MessageSignDestination extends AbstractOpenApiSchema {
             // continue to the next one
         }
         if (validCount != 1) {
-            throw new IOException(String.format("The JSON string is invalid for MessageSignDestination with oneOf schemas: EvmEIP191MessageSignDestination, EvmEIP712MessageSignDestination. %d class(es) match the result, expected 1. Detailed failure message for oneOf schemas: %s. JSON: %s", validCount, errorMessages, jsonElement.toString()));
+            // throw new IOException(String.format("The JSON string is invalid for MessageSignDestination with oneOf schemas: EvmEIP191MessageSignDestination, EvmEIP712MessageSignDestination. %d class(es) match the result, expected 1. Detailed failure message for oneOf schemas: %s. JSON: %s", validCount, errorMessages, jsonElement.toString()));
         }
     }
 
