@@ -80,6 +80,9 @@ public class AuthenticationInterceptor implements Interceptor {
         //(method.upper(), path, timestamp, urlencode(params), body_str)
         String content = method + "|" + path + "|" + nonce + "|" + queryParams + "|" +body;
         String sig = sign(privateKey,content);
+        newRequestBuilder.removeHeader("BIZ-API-KEY");
+        newRequestBuilder.removeHeader("BIZ-API-NONCE");
+        newRequestBuilder.removeHeader("BIZ-API-SIGNATURE");
         newRequestBuilder.addHeader("BIZ-API-KEY", getPublicKey(privateKey))
                 .addHeader("BIZ-API-NONCE", nonce)
                 .addHeader("BIZ-API-SIGNATURE", sig);
