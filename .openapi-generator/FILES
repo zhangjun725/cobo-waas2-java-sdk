@@ -1,3 +1,5 @@
+.github/workflows/ci.yml
+.github/workflows/codeql.yml
 .github/workflows/maven.yml
 .gitignore
 .openapi-generator-ignore
