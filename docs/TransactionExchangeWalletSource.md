@@ -2,7 +2,7 @@
 
 # TransactionExchangeWalletSource
 
-Information about the transaction source types `Main` and `Sub`. 
+Information about the transaction source types `Main` and `Sub`. Refer to [Transaction sources and destinations](/v2/guides/sources-and-destinations) for details.  Switch between the tabs to display the properties for different transaction sources. 
 
 ## Properties
 

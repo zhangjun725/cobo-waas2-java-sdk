@@ -48,7 +48,7 @@ import java.util.Set;
 import com.cobo.waas2.JSON;
 
 /**
- * The information about the destination &#x60;EVM_EIP_712_Signature&#x60;.
+ * The information about the destination &#x60;EVM_EIP_712_Signature&#x60;. Refer to [Transaction sources and destinations](/v2/guides/sources-and-destinations) for details.
  */
 @javax.annotation.Generated(
     value = "org.openapitools.codegen.languages.JavaClientCodegen", 

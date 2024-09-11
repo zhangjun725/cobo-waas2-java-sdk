@@ -2,7 +2,7 @@
 
 # EvmEIP191MessageSignDestination
 
-The information about the destination `EVM_EIP_191_Signature`.
+The information about the destination `EVM_EIP_191_Signature`. Refer to [Transaction sources and destinations](/v2/guides/sources-and-destinations) for details.
 
 ## Properties
 

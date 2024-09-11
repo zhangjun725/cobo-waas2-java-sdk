@@ -2,7 +2,7 @@
 
 # EvmContractCallDestination
 
-The information about the transaction destination.
+The information about the transaction destination. Refer to [Transaction sources and destinations](/v2/guides/sources-and-destinations) for details.
 
 ## Properties
 

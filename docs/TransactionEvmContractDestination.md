@@ -2,7 +2,7 @@
 
 # TransactionEvmContractDestination
 
-Information about the transaction destination type `EVM_Contract`. 
+Information about the transaction destination type `EVM_Contract`. Refer to [Transaction sources and destinations](/v2/guides/sources-and-destinations) for details.  Switch between the tabs to display the properties for different transaction destinations. 
 
 ## Properties
 
